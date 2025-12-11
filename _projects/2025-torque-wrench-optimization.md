@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Optimization
 description: Cad/ANSYS project
 technologies: [Autodesk Fusion],[ANSYS], [MATLAB]
-image: /assets/images/wrench_final_render
+image: /assets/images/wrench_final_render.jpg
 ---
 
 For my Mechanics of Engineering Materials class, we were asked to use ANSYS to analyze a given torque wrench, then write a MATLAB script to optimize the design. We would then run a series of hand calculations and use ANSYS to confirm the newly optimized design. We were looking at specs including stress, strain, deformation, and factor of safety against brittle failure, crack growth failure, and fatigue failure.
@@ -12,7 +12,7 @@ After running through the given base case, we wrote a script that would determin
 
 We then determined the best dimensions for this torque, which can be seen below in the CAD rendering. 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg">
+  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg" width="400">
 </p>
 
 With the CAD model and hand calculations finished, it was then time to put the new design in ANSYS for verification. The loads and boundary conditions can be seen below, and gave the following results:

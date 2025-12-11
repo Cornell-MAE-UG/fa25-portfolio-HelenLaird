@@ -3,7 +3,7 @@ layout: project
 title: Heart as a System
 description: System analysis
 technologies: [MATLAB]
-image: {{ site.baseurl }}/assets/images/heart_cover_final.png
+image: /assets/images/heart_cover_final.png
 ---
 
-For my System Dynamics course, we were asked to work in a group and analyze a system of our choosing, using tools and concepts we had learned throughout the semester. As we had studied many mechanical systems before, my group decided to work on something a bit different and studied the human heart. Focusing on the arteries and the Windkessel effect amongst other things, we modeled it in multiple ways. See my studies of a 2-element open-loop system in [this PDF.]({{ "{{ site.baseurl }}/assets/mae3260 heart final proj edited for portfolio.docx.pdf" | relative_url }})
+For my System Dynamics course, we were asked to work in a group and analyze a system of our choosing, using tools and concepts we had learned throughout the semester. As we had studied many mechanical systems before, my group decided to work on something a bit different and studied the human heart. Focusing on the arteries and the Windkessel effect amongst other things, we modeled it in multiple ways. See my studies of a 2-element open-loop system in [this PDF.]({{ "/assets/mae3260 heart final proj edited for portfolio.docx.pdf" | relative_url }})

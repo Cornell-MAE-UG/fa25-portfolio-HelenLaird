@@ -30,7 +30,7 @@ With the CAD model and hand calculations finished, it was then time to put the n
 
 <table align="center">
   <tr>
-    <td>
+    <td style="border: none">
       <img src="/assets/images/wrench_principal_stress.png" width="350"><br>
       <em>Figure 3: Principal Stress</em>
     </td>

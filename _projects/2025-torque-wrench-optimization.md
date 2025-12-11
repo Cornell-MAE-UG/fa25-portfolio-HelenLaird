@@ -28,7 +28,7 @@ With the CAD model and hand calculations finished, it was then time to put the n
   <em>Figure 2: Normal Elastic Strain from ANSYS</em>
 </p>
 
-<table style="margin: 0 auto; text-align: center;">
+<table align="center">
   <tr>
     <td>
       <img src="/assets/images/wrench_principal_stress.png" width="250"><br>

@@ -28,43 +28,27 @@ With the CAD model and hand calculations finished, it was then time to put the n
   <em>Figure 2: Normal Elastic Strain from ANSYS</em>
 </p>
 
-<style>
-  /* Center all tables and remove borders */
-  table {
-    margin: 0 auto;
-    text-align: center;
-    border-collapse: collapse;
-    border: none;
-  }
-  table td {
-    border: none;
-    padding: 10px; /* optional: gives spacing around images */
-  }
-</style>
-
-<!-- Table: Figures 3 and 4 -->
-<table>
+<table align="center">
   <tr>
-    <td>
-      <img src="/assets/images/wrench_principal_stress.png" width="250"><br>
+    <td style="border: none;">
+      <img src="/assets/images/wrench_principal_stress.png" width="350"><br>
       <em>Figure 3: Principal Stress</em>
     </td>
     <td>
-      <img src="/assets/images/wrench_normal_stress.png" width="250"><br>
+      <img src="/assets/images/wrench_normal_stress.png" width="350"><br>
       <em>Figure 4: Normal Stress</em>
     </td>
   </tr>
 </table>
 
-<!-- Table: Figures 5 and 6 -->
-<table>
+<table align="center">
   <tr>
-    <td>
-      <img src="/assets/images/wrench_deflection.png" width="250"><br>
+    <td style="border: none;">
+      <img src="/assets/images/wrench_deflection.png" width="350"><br>
       <em>Figure 5: Deflection</em>
     </td>
     <td>
-      <img src="/assets/images/wrench_strain_at_strain_gauge.png" width="250"><br>
+      <img src="/assets/images/wrench_strain_at_strain_gauge.png" width="350"><br>
       <em>Figure 6: Strain at strain gauge locations</em>
     </td>
   </tr>

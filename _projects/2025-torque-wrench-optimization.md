@@ -28,30 +28,31 @@ With the CAD model and hand calculations finished, it was then time to put the n
   <em>Figure 2: Normal Elastic Strain from ANSYS</em>
 </p>
 
-<table>
+<table style="margin: 0 auto; text-align: center;">
   <tr>
-    <td align="center">
+    <td>
       <img src="/assets/images/wrench_principal_stress.png" width="250"><br>
       <em>Figure 3: Principal Stress</em>
     </td>
-    <td align="center">
+    <td>
       <img src="/assets/images/wrench_normal_stress.png" width="250"><br>
       <em>Figure 4: Normal Stress</em>
     </td>
   </tr>
 </table>
 
-<table>
+<table style="margin: 0 auto; text-align: center;">
   <tr>
-    <td align="center">
+    <td>
       <img src="/assets/images/wrench_deflection.png" width="250"><br>
       <em>Figure 5: Deflection</em>
     </td>
-    <td align="center">
+    <td>
       <img src="/assets/images/wrench_strain_at_strain_gauge.png" width="250"><br>
       <em>Figure 6: Strain at strain gauge locations</em>
     </td>
   </tr>
 </table>
+
 
 On the wrench, at a location an inch away from the drive, there was a strain gauge. Due to the nature of the wrench, it was a half-bridge in order to allow it to fit on the device, but it allowed us to measure the strain in the tool. For the strain gauge itself, we used a small uniaxial foil strain gauge that fits cleanly on the flat side surface of the handle near the high-strain region. A gauge with a 3–5 mm grid length (roughly 6–7 mm long and 2–3 mm wide) works well for this design because it has enough bonded area to capture the strain gradient without being too large for the narrowed geometry. This size also makes it easy to align the grid with the bending direction and leave enough room for good lead attachment. Overall, it gives a reliable reading while fitting into the space allowed by the handle shape. In the end, we recorded a sensitivity of 0.413 mV/V at the location of the strain gauges. 

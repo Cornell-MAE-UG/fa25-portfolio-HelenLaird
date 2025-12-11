@@ -3,16 +3,6 @@ layout: project
 title: Torque Wrench Optimization
 description: Optimization and Analysis of a Torque Wrench
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/spaceship-design.jpg
----
----
-layout: default
-title: Torque Wrench Optimization
-description: Cad/ANSYS project
-technologies:
-  - Autodesk Fusion
-  - ANSYS
-  - MATLAB
 image: {{ site.baseurl }}/assets/images/wrench_final_render.jpg
 ---
 

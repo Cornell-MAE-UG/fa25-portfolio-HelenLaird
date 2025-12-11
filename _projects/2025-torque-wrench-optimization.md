@@ -11,30 +11,30 @@ After running through the given base case, we wrote a script that would determin
 
 We then determined the best dimensions for this torque, which can be seen below in the CAD rendering. 
 <p align="center">
-  <img src="assets/images/torque cad w dimensions.jpg" width="300">
+  <img src="/assets/images/torque_cad_dimensions.jpg" width="300">
 </p>
 
 With the CAD model and hand calculations finished, it was then time to put the new design in ANSYS for verification. The loads and boundary conditions can be seen below, and gave the following results:
 
 <p align="center">
-  <img src="assets/images/loads and forces for torque wrench.png" width="300"><br>
+  <img src="/assets/images/loads_and_forces_for_torque_wrench.png" width="300"><br>
   <em>Figure 1: Loads and Boundary Conditions used in ANSYS Model</em>
 </p>
 
 <p align="center">
-  <img src="assets/images/normal elastic strain.png" width="250">
-  <img src="assets/images/normal elastic strain closeup.png" width="250"><br>
+  <img src="/assets/images/normal_elastic_strain.png" width="250">
+  <img src="/assets/images/normal_elastic_strain_closeup.png" width="250"><br>
   <em>Figure 2: Normal Elastic Strain from ANSYS</em>
 </p>
 
 <table>
   <tr>
     <td align="center">
-      <img src="assets/images/wrench principal stress.png" width="250"><br>
+      <img src="/assets/images/wrench_principal stress.png" width="250"><br>
       <em>Figure 3: Principal Stress</em>
     </td>
     <td align="center">
-      <img src="assets/images/wrench normal stress.png" width="250"><br>
+      <img src="/assets/images/wrench_normal_stress.png" width="250"><br>
       <em>Figure 4: Normal Stress</em>
     </td>
   </tr>
@@ -43,11 +43,11 @@ With the CAD model and hand calculations finished, it was then time to put the n
 <table>
   <tr>
     <td align="center">
-      <img src="assets/images/wrench deflection.png" width="250"><br>
+      <img src="/assets/images/wrench_deflection.png" width="250"><br>
       <em>Figure 5: Deflection</em>
     </td>
     <td align="center">
-      <img src="assets/images/wrench strain at strain gauge.png" width="250"><br>
+      <img src="/assets/images/wrench_strain_at_strain_gauge.png" width="250"><br>
       <em>Figure 6: Strain at strain gauge locations</em>
     </td>
   </tr>

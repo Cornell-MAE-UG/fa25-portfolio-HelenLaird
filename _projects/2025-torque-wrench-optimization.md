@@ -2,9 +2,13 @@
 layout: default
 title: Torque Wrench Optimization
 description: Cad/ANSYS project
-technologies: [Autodesk Fusion],[ANSYS], [MATLAB]
+technologies:
+  - Autodesk Fusion
+  - ANSYS
+  - MATLAB
 image: {{ site.baseurl }}/assets/images/wrench_final_render.jpg
 ---
+
 
 For my Mechanics of Engineering Materials class, we were asked to use ANSYS to analyze a given torque wrench, then write a MATLAB script to optimize the design. We would then run a series of hand calculations and use ANSYS to confirm the newly optimized design. We were looking at specs including stress, strain, deformation, and factor of safety against brittle failure, crack growth failure, and fatigue failure.
 

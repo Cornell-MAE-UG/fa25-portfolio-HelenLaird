@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: default
 title: Torque Wrench Optimization
 description: Cad/ANSYS project
 technologies: [Autodesk Fusion],[ANSYS], [MATLAB]

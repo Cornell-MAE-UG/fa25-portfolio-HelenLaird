@@ -12,7 +12,7 @@ After running through the given base case, we wrote a script that would determin
 
 We then determined the best dimensions for this torque, which can be seen below in the CAD rendering. 
 <p align="center">
-  <img src="/assets/images/torque_cad_dimensions.jpg" width="400">
+  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg">
 </p>
 
 With the CAD model and hand calculations finished, it was then time to put the new design in ANSYS for verification. The loads and boundary conditions can be seen below, and gave the following results:

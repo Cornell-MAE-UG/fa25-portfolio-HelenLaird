@@ -18,10 +18,11 @@ We then determined the best dimensions for this torque, which can be seen below 
 
 With the CAD model and hand calculations finished, it was then time to put the new design in ANSYS for verification. The loads and boundary conditions can be seen below, and gave the following results:
 
-<p align="center">
+<div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/images/loads_and_forces_for_torque_wrench.png" width="350">
-  <em>Figure 1: Loads and Boundary Conditions used in ANSYS Model</em>
-</p>
+  <div><em>Figure 1: Loads and Boundary Conditions used in ANSYS Model</em></div>
+</div>
+
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/images/normal_elastic_strain.png" width="300">

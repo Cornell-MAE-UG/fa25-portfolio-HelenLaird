@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Optimization
 description: Cad/ANSYS project
 technologies: [Autodesk Fusion],[ANSYS], [MATLAB]
-image: /assets/images/wrench_final_render.jpg
+image: {{ site.baseurl }}/assets/images/wrench_final_render.jpg
 ---
 
 For my Mechanics of Engineering Materials class, we were asked to use ANSYS to analyze a given torque wrench, then write a MATLAB script to optimize the design. We would then run a series of hand calculations and use ANSYS to confirm the newly optimized design. We were looking at specs including stress, strain, deformation, and factor of safety against brittle failure, crack growth failure, and fatigue failure.
@@ -12,30 +12,30 @@ After running through the given base case, we wrote a script that would determin
 
 We then determined the best dimensions for this torque, which can be seen below in the CAD rendering. 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg" width="400">
+  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg" width="300">
 </p>
 
 With the CAD model and hand calculations finished, it was then time to put the new design in ANSYS for verification. The loads and boundary conditions can be seen below, and gave the following results:
 
 <p align="center">
-  <img src="{{ site.baseurl }}/assets/images/torque_cad_dimensions.jpg">
+  <img src="{{ site.baseurl }}/assets/images/loads_and_forces_for_torque_wrench.png" width="300">
   <em>Figure 1: Loads and Boundary Conditions used in ANSYS Model</em>
 </p>
 
 <p align="center">
-  <img src="/assets/images/normal_elastic_strain.png" width="350">
-  <img src="/assets/images/normal_elastic_strain_closeup.png" width="350"><br>
+  <img src="{{ site.baseurl }}/assets/images/normal_elastic_strain.png" width="250">
+  <img src="{{ site.baseurl }}/assets/images/normal_elastic_strain_closeup.png" width="250"><br>
   <em>Figure 2: Normal Elastic Strain from ANSYS</em>
 </p>
 
 <table align="center">
   <tr>
     <td style="border: none;">
-      <img src="/assets/images/wrench_principal_stress.png" width="350"><br>
+      <img src="{{ site.baseurl }}/assets/images/wrench_principal_stress.png" width="250"><br>
       <em>Figure 3: Principal Stress</em>
     </td>
     <td>
-      <img src="/assets/images/wrench_normal_stress.png" width="350"><br>
+      <img src="{{ site.baseurl }}/assets/images/wrench_normal_stress.png" width="250"><br>
       <em>Figure 4: Normal Stress</em>
     </td>
   </tr>
@@ -44,11 +44,11 @@ With the CAD model and hand calculations finished, it was then time to put the n
 <table align="center">
   <tr>
     <td style="border: none;">
-      <img src="/assets/images/wrench_deflection.png" width="350"><br>
+      <img src="{{ site.baseurl }}/assets/images/wrench_deflection.png" width="250"><br>
       <em>Figure 5: Deflection</em>
     </td>
     <td>
-      <img src="/assets/images/wrench_strain_at_strain_gauge.png" width="350"><br>
+      <img src="{{ site.baseurl }}/assets/images/wrench_strain_at_strain_gauge.png" width="250"><br>
       <em>Figure 6: Strain at strain gauge locations</em>
     </td>
   </tr>

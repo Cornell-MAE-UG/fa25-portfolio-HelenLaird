@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Hydrostatic Transmission Dissection
-description: Dissection and explination of a hydrostatic transmission from a transaxle
+description: Dissection and explanation of a hydrostatic transmission from a transaxle
 technologies: [Dissection, IMovie]
 image: /assets/images/hydrostatic_transmisson.jpeg
 ---

@@ -8,5 +8,5 @@ image: /assets/images/waterheater
 
 As part of an assignment for my Heat Transfer class, we were asked to analyze various forms of heat transfer occurring in an electric water heater. Given some values and dimensions for the heater, we were first asked to find the required total electrical heating power to maintain the water at a specified temperature, then to repeat the same process but now with extra insulation around the heater before comparing the two values. Not only did this assignment give me a great opportunity to improve and show my understanding of heat transfer, but it also related to the real world and felt like something I might actually have to solve in the future. It proved how applicable the topics we go over in lectures are to the world outside, and also showed how something as simple as adding insulation can have large positive effects on efficiency and power.
 
-My work can be found through[this PDF.]({{ "/assets/Homework 2 q1.pdf" | relative_url }})
+My work can be found through [this PDF.]({{ "/assets/homework-2-q1.pdf" | relative_url }})
 

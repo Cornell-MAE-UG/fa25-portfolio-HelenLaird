@@ -2,7 +2,6 @@
 layout: project
 title: Heat Transfer of an Electric Water Heater
 description: Class Assignment
-technology used: [none]
 image: /assets/images/waterheater
 ---
 
